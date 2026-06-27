@@ -1,7 +1,7 @@
 use std::io;
 use std::path::Path;
 
-use crate::{Entry, LookupResult};
+use crate::Entry;
 use crate::engine::sstable::{SSTable, SSTableBuilder};
 use crate::index::IndexType;
 
