@@ -126,6 +126,7 @@ impl Compactor {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::LookupResult;
     use tempfile::tempdir;
 
     #[test]
